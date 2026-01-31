@@ -46,7 +46,7 @@ const positiveScenarios = [
   {
     id: 'Pos_Fun_0007',
     description: 'Joined vs Segmented variations - System correctly identifies word boundaries despite inconsistent user spacing.',
-    input: 'mama labana sathiyee poLonnaruvee thiyena aithihaasika pansal balanna yanna hithaagena innee oyaatath edhaata viveekayak thiyenavanavanam apith ekka yනnna enna',
+    input: 'mama labana sathiyee poLonnaruvee thiyena aithihaasika pansal balanna yanna hithaagena innee oyaatath edhaata viveekayak thiyenavanavanam apith ekka yanna enna',
     expected: 'මම ලබන සතියේ පොළොන්නරුවේ තියෙන ඓතිහාසික පන්සල් බලන්න යන්න හිතාගෙන ඉන්නේ ඔයාටත් එදාට විවේකයක් තියෙනවනවනම් අපිත් එක්ක යන්න එන්න'
   },
   {
@@ -88,7 +88,7 @@ const positiveScenarios = [
   {
     id: 'Pos_Fun_0014',
     description: 'Mixed English/Singlish - Words like "Traffic", "On time", and "Late Attendance" are preserved without incorrect transliteration.',
-    input: 'paaree loku Traffic ekak thiyena nisaa mata adha campus ekata On time enna baeriveyii . ee nisaa karuNaakaralaa lecture ta kiyන්න මම එනවා කියලා Late Attendance එකක් විදිහට සලකන්න පුළුවනද? අහන්න මම පුළුවන් ඉක්මනෙන් Campus එකට එන්න try කරනවා',
+    input: 'paaree loku Traffic ekak thiyena nisaa mata adha campus ekata On time enna baeriveyii . ee nisaa karuNaakaralaa lecture ta kiyanna මම එනවා කියලා Late Attendance එකක් විදිහට සලකන්න පුළුවනද? අහන්න මම පුළුවන් ඉක්මනෙන් Campus එකට එන්න try කරනවා',
     expected: 'පාරේ ලොකු Traffic එකක් තියෙන නිසා මට අද campus එකට On time එන්න බැරිවයී . ඒ නිසා කරුණාකරලා lecture ට කියන්න මම එනවා කියලා Late Attendance එකක් විදිහට සලකන්න පුළුවනද? අහන්න මම පුළුවන් ඉක්මනෙන් Campus එකට එන්න try කරනවා'
   },
   {
